@@ -1,0 +1,209 @@
+Query,Intent
+Hello bot!,greeting
+Hi,greeting
+Hello!,greeting
+Hey there,greeting
+Hey,greeting
+Namaskar,greeting
+Namaste,greeting
+Bye,goodbye
+See you later,goodbye
+Goodbye,goodbye
+Thanks,thanks
+Thank you,thanks
+That's helpful,thanks
+Thank  you so much,thanks
+What hours are you open?,hours
+What are your hours?,hours
+When are you open?,hours
+how i can buy crops online?,buy
+how i can buy crops from farmer?,buy
+how can I buy a product?,buy
+how I can sell crops online?,sell
+how I can sell my crops?,sell
+best way to sell product?,sell
+how farmer can sell their product?,sell
+Are you open today?,opentoday
+When do you open today?,opentoday
+What are your hours today?,opentoday
+Who is your father?,family
+What is your father's name?,family
+What is your mother's name?,family
+Do you have parents?,family
+Do you have siblings?,family
+Who is you wife?,family
+What is your wife's name?,family
+Are you married?,family
+Are you a God?,sarcasm
+How old are you?,sarcasm
+Are you a man?,sarcasm
+Are you a bot?,sarcasm
+Do you have a job?,sarcasm
+Who is your best friend?,sarcasm
+Am I your friend?,sarcasm
+How are you?,wellness
+How you doing?,wellness
+How are you doing?,wellness
+Are you doing well?,wellness
+Are you okay?,wellness
+Are you fine?,wellness
+Are you doing okay?,wellness
+Is everything okay?,wellness
+Are you all right?,wellness
+You alright?,wellness
+How was your day?,enquireaboutday
+How is your day going?,enquireaboutday
+How is your day?,enquireaboutday
+I need help!,askinghelp
+Need help!,askinghelp
+Help me please,askinghelp
+Help me,askinghelp
+Help,askinghelp
+Can you do something for me?,askinghelp
+I need you to do me a favour.,askinghelp
+Can you do me a favour?,askinghelp
+Can you help me?,askinghelp
+I need your help!,askinghelp
+Please help me.,askinghelp
+I need an answer.,askinghelp
+Answer my question.,askinghelp
+Help please,askinghelp
+Who is the President?,outofscope
+Who is the Prime Minister?,outofscope
+What is my mother's name?,outofscope
+Are you a supporter of BJP?,outofscope
+Are you active in politics?,outofscope
+which weather is suitable for cotton?,cottonweather
+what is temperature for cotton crop?,cottonweather
+cotton crop grows in which temperature?,cottonweather
+temperature for cotton ,cottonweather
+temperature require for cotton crop?,cottonweather
+I want to grow cotton,cottoncondition
+how to grow cotton ?,cottoncondition
+which condition is suitable for cotton crop?,cottoncondition
+which condition required for cotton crop?,cottoncondition
+condition for cotton crop,cottoncondition
+How much rainfall does cotton need?,cottoncondition
+condition suitable for cotton,cottoncondition
+condition for more cotton crop production,cottoncondition
+How much water to add for cotton?,cottoncondition
+which land is suitable for cotton crop,cottoncondition
+land for cotton crop,cottoncondition
+land for cotton ,cottoncondition
+which factor is suitable for cotton crop?,cottoncondition
+which weather is suitable for wheat?,wheatweather
+what is temperature for wheat crop?,wheatweather
+wheat grows in which temperature?,wheatweather
+temperature for wheat,wheatweather
+temperature require for wheat crop?,wheatweather
+How much water to add for Wheat?,wheatcondition
+which condition is suitable for wheat crop?,wheatcondition
+which condition required for wheat crop?,wheatcondition
+condition for wheat crop,wheatcondition
+How much rainfall does wheat need?,wheatcondition
+I want to grow wheat,wheatcondition
+condition suitable for wheat,wheatcondition
+condition for more wheat crop production,wheatcondition
+which land is suitable for wheat crop,wheatcondition
+land for wheat crop,wheatcondition
+land for wheat ,wheatcondition
+which factor is suitable for wheat crop?,wheatcondition
+which weather is suitable for bajra?,bajraweather
+what is temperature for bajra crop?,bajraweather
+bajra grows in which temperature?,bajraweather
+temperature for bajra,bajraweather
+temperature require for bajra crop?,bajraweather
+which condition is suitable for bajra crop?,bajracondition
+which condition required for bajra crop?,bajracondition
+condition for bajra crop,bajracondition
+How much water to add for bajra?,bajracondition
+condition suitable for bajra,bajracondition
+condition for more bajra crop production,bajracondition
+which land is suitable for bajra crop,bajracondition
+land for bajra crop,bajracondition
+land for bajra ,bajracondition
+How much rainfall does bajra need?,bajracondition
+which factor is suitable for bajra crop?,bajracondition
+bajra have which condition,bajracondition
+which weather is suitable for sugercane?,sugercaneweather
+what is temperature for sugercane crop?,sugercaneweather
+sugercane grows in which temperature?,sugercaneweather
+temperature for sugercane,sugercaneweather
+temperature require for sugercane crop?,sugercaneweather
+which condition is suitable for sugercane crop?,sugercanecondition
+which condition required for sugercane crop?,sugercanecondition
+condition for sugercane crop,sugercanecondition
+I want to grow sugercane,sugercanecondition
+condition suitable for sugercane,sugercanecondition
+condition for more sugercane crop production,sugercanecondition
+which land is suitable for sugercane crop,sugercanecondition
+land for sugercane crop,sugercanecondition
+land for sugercane,sugercanecondition
+which factor is suitable for sugercane crop?,sugercanecondition
+sugercane have which condition,sugercanecondition
+what is temperature for rice crop?,riceweather
+rice grows in which temperature?,riceweather
+temperature for rice,riceweather
+temperature require for rice crop?,riceweather
+which condition is suitable for rice crop?,ricecondition
+which condition required for rice crop?,ricecondition
+condition for rice crop,ricecondition
+Best soil for growing rice,ricecondition
+condition suitable for rice,ricecondition
+condition for more rice crop production,ricecondition
+which land is suitable for rice crop,ricecondition
+land for rice crop,ricecondition
+How much rainfall does rice need?,ricecondition
+land for rice,ricecondition
+which factor is suitable for rice crop?,ricecondition
+rice have which condition,ricecondition
+what is temperature for groundnut crop?,groundnutweather
+groundnut grows in which temperature?,groundnutweather
+temperature for groundnut,groundnutweather
+temperature require for groundnut?,groundnutweather
+which condition is suitable for groundnut crop?,groundnutcondition
+which condition required for groundnut crop?,groundnutcondition
+condition for groundnut crop,groundnutcondition
+condition suitable for groundnut,groundnutcondition
+condition for more groundnut crop production,groundnutcondition
+which land is suitable for groundnut crop,groundnutcondition
+land for groundnut crop,groundnutcondition
+land for groundnut,groundnutcondition
+which factor is suitable for groundnut crop?,groundnutcondition
+groundnut have which condition,groundnutcondition
+What is the market price of rice?,marketprice
+How much is the cost of 10 kgs of wheat?,marketprice
+What are the prices of sugarcane?,marketprice
+Market prices of cotton in Belgaum,marketprice
+Wassup?,wassup
+What are you doing?,wassup
+What is up with you?,wassup
+What are you up to?,wassup
+How is it going?,wassup
+whats up,wassup
+what is temperature for maize crop?,maizeweather
+maize grows in which temperature?,maizeweather
+temperature for maize,maizeweather
+temperature require for maize?,maizeweather
+which condition is suitable for maize crop?,maizecondition
+which condition required for maize crop?,maizecondition
+condition for maize crop,maizecondition
+condition suitable for maize,maizecondition
+condition for more maize crop production,maizecondition
+which land is suitable for maize crop,maizecondition
+land for maize crop,maizecondition
+land for maize,maizecondition
+which factor is suitable for maize crop?,maizecondition
+maize have which condition,maizecondition
+Important government policies for farmer,farmerscheme
+Important government scheme for farmer,farmerscheme
+indian government scheme for indian farmer,farmerscheme
+which scheme is most helpful to indian farmer,farmerscheme
+government policies for farmer in india,farmerscheme
+scheme for farmer ,farmerscheme
+what is PM kisan scheme,farmerpmkisan
+PM kisan ,farmerpmkisan
+which are benefits of PM kisan scheme?,farmerpmkisan
+how PM kisan scheme is helpful to people?,farmerpmkisan
+please give me knowledge about PM kisan scheme ,farmerpmkisan
+please give me PM kisan scheme detailes,farmerpmkisan

@@ -1,0 +1,127 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "hello!", "hey" ,"namaste"],
+         "responses": ["Hello, thanks for visiting.", "Good to see you.", "Hi there, how can I help?","hello"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later., thanks for visiting.", "Have a nice day.", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure."]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm.", "Our hours are 9am-9pm every day."]
+        },
+        {"tag": "buy",
+         "patterns": ["how i can buy crops online?", "how i can buy crops from farmer?" ],
+         "responses": ["Please visit our website https://farmer.gov.in/"]
+        },
+        {"tag": "sell",
+         "patterns": ["how I can sell crops online?", "how I can sell my crops?", "best way to sell product?" , "how farmer can sell their product?"],
+         "responses": ["Please visit our website https://farmer.gov.in/"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am-9pm.", "Our hours are 9am-9pm every day."]
+        },
+        {"tag": "family",
+         "patterns": ["Who is your father?", "What is your father's name?", "What is your mother's name?","Do you have parents?" ,"Do you have siblings?" ],
+         "responses": ["i don't have knowledge about my family."]
+        },
+        {"tag": "sarcasm",
+         "patterns": ["Are you a God?", "How old are you?", "Are you a man?","Are you a bot?", "Do you have a job?" ,"Who is your best friend?","Am I your friend?"],
+         "responses": ["i'm not able to understand your question.", "Please ask some related questions."]
+        },
+	{"tag": "wellness",
+         "patterns": ["How are you?", "How you doing?", "How are you doing?","Are you doing well?", "Are you okay?" ,"Are you fine?","Are you doing okay?"],
+         "responses": ["i'm cool.", "always cool.", "i'm ok.", "i'm fine."]
+        },
+	{"tag": "enquireaboutday",
+         "patterns": ["How was your day?", "How is your day going?", "How is your day?"],
+         "responses": ["It's been great.", "It's been good."]
+        },
+	{"tag": "askinghelp",
+         "patterns": ["I need help!", "Need help!", "Help me please", "Help me", "Can you do something for me?", "Answer my question"],
+         "responses": ["i'm here to help you.", "i can help you.", "i'm here to solve your queries."]
+        },
+	{"tag": "outofscope",
+         "patterns": ["Who is the President?", "Who is the Prime Minister?", "What is my mother's name?", "Are you a supporter of BJP?", "Are you active in politics?"],
+         "responses": ["your question is out of my knowledge.", "i'm not able to answer your question.", "i don't have knowledge about that."]
+        },
+	{"tag": "cottonweather",
+         "patterns": ["which weather is suitable for cotton?", "what is temperature for cotton crop?", "cotton crop grows in which temperature?", "temprature for cotton ", "temperature require for cotton crop?"],
+         "responses": ["During active growth, the ideal air temperature is 70 to 100°F (21-37°C).", "ideal air temperature is 70 to 100°F.", "21-37°C temperature is required."]
+        },
+	{"tag": "cottoncondition",
+         "patterns": ["which condition is suitable for cotton crop?", "which condition required for cotton crop?", "condition for cotton crop", "condition suitable for cotton", "condition for more cotton crop production"],
+         "responses": ["It require a lot of heat and plenty of sunshine.", "It prefers warm and humid climate.","Cotton is a plant that needs a long frost-free period."]
+        },
+	{"tag": "wheatweather",
+         "patterns": ["which weather is suitable for wheat?", "what is temperature for wheat crop?", "wheat grows in which temperature?","temperature for wheat", "temperature require for wheat crop?"],
+         "responses": ["The optimum growing temperature is about 25°C.", "minimum and maximum growth temperatures of 3° to 4°C and 30° to 32°C, respectively."]
+        },
+	{"tag": "wheatcondition",
+         "patterns": ["which condition is suitable for wheat crop?", "which condition required for wheat crop?", "condition for wheat crop", "condition suitable for wheat", "condition for more wheat crop production", "which land is suitable for wheat crop"],
+         "responses": ["it needs 12 to 15 inches (31 to 38 centimeters) of water to produce a good crop.", "it needs a lot of sunshine, especially when the grains are filling.", "it grows best when the soil pH is between 6.0 and 7.0."]
+        },
+	{"tag": "bajraweather",
+         "patterns": ["which weather is suitable for bajra?", "what is temperature for bajra crop?", "bajra grows in which temperature?", "temperature for bajra", "temperature require for bajra crop?"],
+         "responses": ["Ideal temperature for bajra cultivation is between 20 oC to 30 oC.", "temperature is between 20 oC to 30 oC."]
+        },
+	{"tag": "bajracondition",
+         "patterns": ["which condition is suitable for bajra crop?", "which condition required for bajra crop?", "condition for bajra crop", "which land is suitable for bajra crop"],
+         "responses": ["Bajra grows well in dry and warm climate conditions", "it's drought tolerant crop which requires low annual rainfall ranging between 40 cm to 60 cm.", "i'm here to solve your queries."]
+        },
+	{"tag": "sugercaneweather",
+         "patterns": ["which weather is suitable for sugercane?", "what is temperature for sugercane crop?", "sugercane grows in which temperature?","temperature for sugercane"],
+         "responses": ["temperature is between 21°C to 27°C", "It grows well in hot and humid climate with a temperature of 21°C to 27°C "]
+        },
+	{"tag": "sugercanecondition",
+         "patterns": ["which condition is suitable for sugercane crop?", "which condition required for sugercane crop?", "condition for sugercane crop","condition suitable for sugercane"],
+         "responses": ["annual rainfall require between 75cm.", "It is a tropical as well as a subtropical crop.", "It grows well in hot and humid climate with a temperature of 21°C to 27°C"]
+        },
+	{"tag": "riceweather",
+         "patterns": ["which weather is suitable for rice?", "what is temperature for rice crop?", "rice grows in which temperature?","temperature for rice"],
+         "responses": ["The average temperature required throughout the life period of the crop ranges from 21 to 37º C.", "the average temperature is between 21 to 37ºC"]
+        },
+	{"tag": "ricecondition",
+         "patterns": ["which condition is suitable for rice crop?", "which condition required for rice crop?", "condition for rice crop","condition suitable for rice"],
+         "responses": ["Rice crop needs a hot and humid climate.","Rice grows on a variety of soils like silts, loams and gravels.", "It is best suited to regions which have high humidity, prolonged sunshine and an assured supply of water.", "The average temperature required throughout the life period of the crop ranges from 21 to 37º C."]
+        },
+	{"tag": "groundnutweather",
+         "patterns": ["which weather is suitable for groundnut?", "what is temperature for groundnut crop?", "groundnut grows in which temperature?","temperature for groundnut"],
+         "responses": ["It seems that plant will grow best when the mean temperature is from 21-26.5°C.", "It grows well with a temperature of 21°C to 26.5°C "]
+        },
+	{"tag": "groundnutcondition",
+         "patterns": ["which condition is suitable for groundnut crop?", "which condition required for groundnut crop?", "condition for groundnut crop","condition suitable for groundnut"],
+         "responses": ["it require well distributed rainfall at least 50 cm during growing season", "it grows in abundance of sunshine and relatively warm temperatures."]
+        },
+	{"tag": "marketprice",
+         "patterns": ["What is the market price of rice?", "How much is the cost of 10 kgs of wheat?", "What are the prices of sugarcane?"],
+         "responses": ["please visit our application.", "please visit our website for more detail.", "i request you to please visit our website."]
+        },
+	{"tag": "wassup",
+         "patterns": ["Wassup?", "What are you doing?", "What is up with you?", "What are you up to?", "How is it going?"],
+         "responses": ["i'm just chilling.", "i am enjoying day.", "i'm fine."]
+        },
+	{"tag": "maizeweather",
+         "patterns": ["what is temperature for maize crop?", "maize grows in which temperature?", "temperature for maize"],
+         "responses": ["A temperature of 21°C- 27°C and 50-100cm rainfall is suitable for its cultivation.", "A temperature of 21°C- 27°C is suitable for its cultivation."]
+        },
+	{"tag": "maizecondition",
+         "patterns": ["which condition is suitable for maize crop?", "which condition required for maize crop?", "condition suitable for maize", "land for maize crop"],
+         "responses": ["A temperature of 21°C- 27°C and 50-100cm rainfall is suitable for its cultivation.", "A 50-100cm rainfall is suitable for its cultivation.", "Alternate spells of rains and sunny weather are ideal for maize.", "It grows well in alluvial and red soils with good drainage."]
+        },
+	{"tag": "farmerscheme",
+         "patterns": ["Important government policies for farmer", "indian government scheme for indian farmer", "which scheme is most helpful to indian farmer"],
+         "responses": ["PM-Kisan Scheme,Pradhan Mantri Kisan Maandhan yojana,Pradhan Mantri Fasal Bima Yojana (PMFBY),Paramparagat Krishi Vikas Yojana (PKVY),etc.", "PM-Kisan Scheme,Pradhan Mantri Krishi Sinchai Yojana (PMKSY),etc.", "Pradhan Mantri Kisan Maandhan yojana, Pradhan Mantri Fasal Bima Yojana (PMFBY),etc. for more details please visit our website."]
+        },
+	{"tag": "farmerpmkisan",
+         "patterns": ["what is PM kisan scheme", "PM kisan", "which are benefits of PM kisan scheme?", "how PM kisan scheme is helpful to people?"],
+         "responses": ["Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) is a Central Sector scheme with 100% funding from Government of India. for more details visit pmkisan.gov.in", "please visit our website pmkisan.gov.in", "i request you to please visit our website pmkisan.gov.in", "Under the Scheme an income support of Rs. 6000/- per year is provided to all farmer families across the country in three equal installments of Rs. 2000/- each every four months."]
+        }
+   ]
+}
